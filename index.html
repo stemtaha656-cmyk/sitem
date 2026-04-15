@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="description" content="Tane Production — Hikayenizi sinemaya taşıyoruz. Profesyonel film, reklam ve içerik üretimi." />
+  <meta name="theme-color" content="#050505" />
+  <title>Tane Production — Film & Prodüksiyon</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
+</head>
+<body class="loading">
+
+  <!-- Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-logo">TANE <span>PRO</span></div>
+    <div class="preloader-tagline">Film & Prodüksiyon</div>
+    <div class="preloader-bar-wrap">
+      <div class="preloader-bar"></div>
+    </div>
+    <div class="preloader-count">0%</div>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-dot"></span>
+      TANE <span>PRO</span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="nav-link" data-page="index.html">Ana Sayfa</a></li>
+      <li><a href="hakkimda.html" class="nav-link" data-page="hakkimda.html">Hakkımızda</a></li>
+      <li><a href="projeler.html" class="nav-link" data-page="projeler.html">Projeler</a></li>
+      <li><a href="hizmetler.html" class="nav-link" data-page="hizmetler.html">Hizmetler</a></li>
+      <li><a href="galeri.html" class="nav-link" data-page="galeri.html">Galeri</a></li>
+      <li><a href="iletisim.html" class="nav-cta" data-page="iletisim.html">İletişim</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="nav-mobile">
+    <a href="index.html" class="nav-link" data-page="index.html">Ana Sayfa</a>
+    <a href="hakkimda.html" class="nav-link" data-page="hakkimda.html">Hakkımızda</a>
+    <a href="projeler.html" class="nav-link" data-page="projeler.html">Projeler</a>
+    <a href="hizmetler.html" class="nav-link" data-page="hizmetler.html">Hizmetler</a>
+    <a href="galeri.html" class="nav-link" data-page="galeri.html">Galeri</a>
+    <a href="iletisim.html" class="nav-link" data-page="iletisim.html">İletişim</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-bg-film"></div>
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Hikayenizi Sinemaya Taşıyoruz
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-title-line">HİKAYELER</span>
+          <span class="hero-title-line">TANE</span>
+          <span class="hero-title-line">TAŞIR</span>
+        </h1>
+        <p class="hero-sub">Duygusal anlatım ve teknik mükemmeliyetin kesiştiği noktada, her sahneyi bir şaheser olarak sunuyoruz.</p>
+        <div class="hero-actions">
+          <a href="projeler.html" class="btn-primary">
+            <span>Projeleri Keşfet</span>
+            <svg class="hero-arrow" viewBox="0 0 20 20" fill="none">
+              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <a href="iletisim.html" class="btn-secondary">
+            Bizimle Çalış
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span class="hero-scroll-text">Aşağı Kaydır</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- FILM STRIP -->
+  <div class="film-strip">
+    <div class="film-strip-track">
+      <span class="film-strip-item highlight">TANE PRODUCTION</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">REKLAM FİLMİ</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">BELGESEL</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">KURUMSAL VİDEO</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item highlight">TANE PRODUCTION</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">KISA FİLM</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">POST PRODÜKSİYON</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+      <span class="film-strip-item">SENARYO</span>
+      <span class="film-strip-item film-strip-sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT SNIPPET -->
+  <section id="about-snippet">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <!-- Film Camera Visual -->
+              <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.15">
+                <rect x="15" y="35" width="70" height="50" rx="4" stroke="#F0C040" stroke-width="2"/>
+                <circle cx="50" cy="60" r="18" stroke="#F0C040" stroke-width="2"/>
+                <circle cx="50" cy="60" r="8" stroke="#F0C040" stroke-width="2"/>
+                <path d="M85 48l20-10v44l-20-10V48z" stroke="#F0C040" stroke-width="2"/>
+                <rect x="25" y="25" width="12" height="12" rx="2" stroke="#F0C040" stroke-width="1.5"/>
+                <rect x="45" y="25" width="12" height="12" rx="2" stroke="#F0C040" stroke-width="1.5"/>
+                <rect x="65" y="25" width="12" height="12" rx="2" stroke="#F0C040" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="about-img-frame"></div>
+          </div>
+          <div class="about-stats">
+            <div class="about-stat">
+              <div class="about-stat-num" data-count="87" data-suffix="+">0+</div>
+              <div class="about-stat-label">Proje</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num" data-count="12" data-suffix="">0</div>
+              <div class="about-stat-label">Yıl Deneyim</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num" data-count="24" data-suffix="">0</div>
+              <div class="about-stat-label">Ödül</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="section-label">Hakkımızda</div>
+          <h2 class="section-title reveal" data-delay="100">Her Kare Bir <em>Hikaye</em></h2>
+          <div class="reveal" data-delay="200">
+            <p>Tane Production, <strong>sinema sanatını ve modern teknolojiyi</strong> birleştiren bağımsız bir film ve prodüksiyon şirketidir. 2012'den bu yana her türlü görsel hikaye anlatımında sektörün önde gelen isimlerinden biri olarak faaliyet göstermekteyiz.</p>
+            <p>Reklam filmlerinden belgesellere, kısa filmlerden kurumsal içeriklere kadar geniş bir yelpazede hizmet sunuyoruz. <strong>Her projeyi, bir şaheser yaratma fırsatı</strong> olarak değerlendiriyoruz.</p>
+          </div>
+          <a href="hakkimda.html" class="btn-secondary reveal" data-delay="300" style="margin-top:2rem; display:inline-flex;">
+            Daha Fazla Öğren
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+              <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS PREVIEW -->
+  <section id="projects-preview">
+    <div class="container">
+      <div class="projects-header">
+        <div>
+          <div class="section-label reveal">Seçkili Çalışmalar</div>
+          <h2 class="section-title reveal" data-delay="100">Öne Çıkan <em>Projeler</em></h2>
+        </div>
+        <a href="projeler.html" class="btn-secondary reveal" data-delay="150">
+          Tüm Projeler
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card project-card-1 reveal">
+          <div class="project-card-bg"></div>
+          <div class="project-card-overlay"></div>
+          <span class="project-card-num">01</span>
+          <div class="project-card-content">
+            <div class="project-card-cat">Reklam Filmi</div>
+            <div class="project-card-title">Evrenin Sesi</div>
+            <div class="project-card-sub">2024 — Cannes Lions Finalist</div>
+          </div>
+        </div>
+        <div class="project-card project-card-2 reveal" data-delay="100">
+          <div class="project-card-bg"></div>
+          <div class="project-card-overlay"></div>
+          <span class="project-card-num">02</span>
+          <div class="project-card-content">
+            <div class="project-card-cat">Kısa Film</div>
+            <div class="project-card-title">Kırmızı Kapı</div>
+            <div class="project-card-sub">2024 — En İyi Film</div>
+          </div>
+        </div>
+        <div class="project-card project-card-3 reveal" data-delay="150">
+          <div class="project-card-bg"></div>
+          <div class="project-card-overlay"></div>
+          <span class="project-card-num">03</span>
+          <div class="project-card-content">
+            <div class="project-card-cat">Belgesel</div>
+            <div class="project-card-title">Toprak & Su</div>
+            <div class="project-card-sub">2023 — TRT Yayını</div>
+          </div>
+        </div>
+        <div class="project-card project-card-4 reveal" data-delay="50">
+          <div class="project-card-bg"></div>
+          <div class="project-card-overlay"></div>
+          <span class="project-card-num">04</span>
+          <div class="project-card-content">
+            <div class="project-card-cat">Kurumsal</div>
+            <div class="project-card-title">Vizyon 2030</div>
+            <div class="project-card-sub">2023 — Kurumsal İletişim</div>
+          </div>
+        </div>
+        <div class="project-card project-card-5 reveal" data-delay="200">
+          <div class="project-card-bg"></div>
+          <div class="project-card-overlay"></div>
+          <span class="project-card-num">05</span>
+          <div class="project-card-content">
+            <div class="project-card-cat">Müzik Videosu</div>
+            <div class="project-card-title">Gece Yarısı</div>
+            <div class="project-card-sub">2023 — 5M+ Görüntülenme</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services">
+    <div class="container">
+      <div class="section-label reveal">Ne Yapıyoruz</div>
+      <h2 class="section-title reveal" data-delay="100">Uzmanlık <em>Alanlarımız</em></h2>
+      <div class="services-grid">
+        <div class="service-item reveal" data-delay="0">
+          <div class="service-num">01</div>
+          <div class="service-title">Film & Reklam</div>
+          <p class="service-desc">Markalar için duygusal bağ kuran, izleyiciyi etkilyen reklam filmleri ve kurumsal prodüksiyonlar.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+        <div class="service-item reveal" data-delay="100">
+          <div class="service-num">02</div>
+          <div class="service-title">Belgesel</div>
+          <p class="service-desc">Gerçek hikayeleri görsel bir şölen olarak anlatıyoruz. Her belgesel, kalıcı bir iz bırakır.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+        <div class="service-item reveal" data-delay="200">
+          <div class="service-num">03</div>
+          <div class="service-title">Post Prodüksiyon</div>
+          <p class="service-desc">Renk düzeltme, ses tasarımı ve görsel efektlerle çekimlerinizi mükemmelleştiriyoruz.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+        <div class="service-item reveal" data-delay="50">
+          <div class="service-num">04</div>
+          <div class="service-title">Kısa Film</div>
+          <p class="service-desc">Bağımsız sinemayı destekliyor, genç yeteneklerin hikayelerini dünyaya taşıyoruz.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+        <div class="service-item reveal" data-delay="150">
+          <div class="service-num">05</div>
+          <div class="service-title">Dijital İçerik</div>
+          <p class="service-desc">Sosyal medya ve dijital platformlar için optimize edilmiş, viral potansiyelli içerikler.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+        <div class="service-item reveal" data-delay="250">
+          <div class="service-num">06</div>
+          <div class="service-title">Senaryo & Danışmanlık</div>
+          <p class="service-desc">Fikir geliştirmeden senaryo yazımına, prodüksiyon danışmanlığı hizmetlerimizle yanınızdayız.</p>
+          <div class="service-arrow">
+            <div class="service-arrow-icon"></div>
+            Keşfet
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <div class="quote-section">
+    <div class="container">
+      <p class="quote-text reveal">"Sinema, <em>hayatın düşünce yoluyla yeniden yaratılmasıdır.</em> Her kareye bu bilinçle dokunuyoruz."</p>
+      <div class="quote-author reveal" data-delay="200">Tane Production</div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-label reveal">Müşterilerimiz</div>
+      <h2 class="section-title reveal" data-delay="100">Ne <em>Diyorlar</em></h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal" data-delay="0">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Tane Production ile çalışmak, markamuza bambaşka bir nefes kattı. Reklam filmimiz beklentilerimizin çok ötesine geçti.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AY</div>
+            <div>
+              <div class="testimonial-name">Ayşe Yılmaz</div>
+              <div class="testimonial-role">Pazarlama Direktörü, NovaBrand</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" data-delay="100">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Belgesel projemizde gösterdikleri profesyonellik ve yaratıcı bakış açısı gerçekten etkileyiciydi. Kesinlikle tavsiye ederim.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MK</div>
+            <div>
+              <div class="testimonial-name">Mehmet Kaya</div>
+              <div class="testimonial-role">Kurucu, Kaya Medya</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" data-delay="200">
+          <div class="testimonial-quote-icon">"</div>
+          <p class="testimonial-text">Post prodüksiyon hizmetleri muhteşem. Çekimlerimizi sanatsal bir ürüne dönüştürdüler. Tane ekibi gerçek bir uzman.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">ZD</div>
+            <div>
+              <div class="testimonial-name">Zeynep Demir</div>
+              <div class="testimonial-role">Yönetmen, BağımsızSinema</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">TANE <span>PRO</span></div>
+          <div class="footer-brand-tagline">Her Hikaye Bir Tane.</div>
+          <div class="footer-socials">
+            <a href="#" class="footer-social">IG</a>
+            <a href="#" class="footer-social">YT</a>
+            <a href="#" class="footer-social">LI</a>
+            <a href="#" class="footer-social">TW</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Sayfalar</div>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Ana Sayfa</a>
+            <a href="hakkimda.html" class="footer-link">Hakkımızda</a>
+            <a href="projeler.html" class="footer-link">Projeler</a>
+            <a href="hizmetler.html" class="footer-link">Hizmetler</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Hizmetler</div>
+          <div class="footer-links">
+            <a href="hizmetler.html" class="footer-link">Film & Reklam</a>
+            <a href="hizmetler.html" class="footer-link">Belgesel</a>
+            <a href="hizmetler.html" class="footer-link">Post Prodüksiyon</a>
+            <a href="hizmetler.html" class="footer-link">Dijital İçerik</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">İletişim</div>
+          <div class="footer-links">
+            <a href="iletisim.html" class="footer-link">iletisim@taneproduction.com</a>
+            <a href="iletisim.html" class="footer-link">+90 (212) 555 0100</a>
+            <a href="iletisim.html" class="footer-link">İstanbul, Türkiye</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2024 <span>Tane Production</span>. Tüm Hakları Saklıdır.</div>
+        <button class="footer-back-top">
+          <div class="footer-back-top-arrow">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M7 12V2M2 7l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          Yukarı Çık
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
